@@ -1,3 +1,9 @@
+A) Does the program work?
+Oh hell it does. (I am, by the way, heavily surprised by the fact that I didn't get a broken program, and I feel obligated to thank the eternal beings possessing ultimate powers for providing some of the most splendid code our class can produce.)
+
+B) How good is the code?
+Here's where my criticism comes.
+
 Technical stuff
 
 - Converting a division by 2 to int to get an integer is uglier than integral division
@@ -21,7 +27,8 @@ Best practices stuff
 -> In this case, I do not think separating the output layer of the program from the computational layer is necessary and I'll keep them together (the output part is just a few print calls) - the separation would only be worth it if the code was meant to be highly reusable or if the data output required more code
 
 
-DX
+C) DX
+I cannot be happier about this bit.
 
 - The code is so readable I could hear it explain itself to me
 
@@ -32,7 +39,7 @@ DX
 - Infact, without caring about some minor details such as the slightly less visually appealing way of choosing the drunkie's next walking direction, all I had to do to make the code do what I wanted was to remove the prints and inputs and wrap the whole thing into a function
 
 
-Summary
+D) Summary
 The code is very human-friendly and well-written and if I wasn't a perfectionist, I wouldn't care about the little shortcomings and would be done with this assignment in about 5 minutes. Kudos to the author, and if I find out who that is, I'll buy them a lollipop.
 Technical aspect: 7/10
 Best practices: 5/10

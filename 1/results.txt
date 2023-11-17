@@ -1,0 +1,1 @@
+On average, the necessary max step count for the drunkie simulation to reach 80% success rate (not falling asleep) based on the program I got is approx. 83.
