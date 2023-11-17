@@ -1,2 +1,39 @@
-- Converting a division by 2 to int to get an integer is hurting my eyes, had to change it to integral division
-- 
+Technical stuff
+
+- Converting a division by 2 to int to get an integer is uglier than integral division
+
+- The random step generator can be done a lot more concisely with random.choice([-1, 1]) but the solution used is acceptable
+
+- The code on line 9 and 10 is placed in a weird spot while also being used at the end of each iteration of the for loop
+-> Instead, these two lines can be moved to the beginning of the loop and removed from its end
+-> Moreover, if the code at the end of the loop was to stay, it doesn't have to be placed in an else clause since execution exits from the loop if either the if or the elif activate
+
+- The printing part can be done more efficiently by not initializing the list every iteration and every time before printing, replace the dot at the drunkie's current position with an asterisk and revert this change after printing is done
+-> Needless to say, this optimalisation has an unnoticable effect with numbers as small as what we're working with and would only really start to show as the path length's digit count would increase
+
+
+Best practices stuff
+
+- Most variable names are good but I am specifically not a fan of the iteration variable names "y" and "z" when there's "i" mixed with it
+
+- It is better to make the program a function
+-> I also prefer to separate the input-collecting part of the program, the calculation part, and the data output part into inidividual functions so that each of them operates independently - this allows us to change the way input is gathered (file, console etc.) without having to go through code that doesn't have anything to do with that functionality (e. g. our calculation code) but is not spacially separated and thus can make it more difficult (infact, sometimes even a nightmare) to alter the code
+-> In this case, I do not think separating the output layer of the program from the computational layer is necessary and I'll keep them together (the output part is just a few print calls) - the separation would only be worth it if the code was meant to be highly reusable or if the data output required more code
+
+
+DX
+
+- The code is so readable I could hear it explain itself to me
+
+- Very pleasant to work with
+
+- I didn't need to do many changes to the code to integrate it into the success rate calculation code
+
+- Infact, without caring about some minor details such as the slightly less visually appealing way of choosing the drunkie's next walking direction, all I had to do to make the code do what I wanted was to remove the prints and inputs and wrap the whole thing into a function
+
+
+Summary
+The code is very human-friendly and well-written and if I wasn't a perfectionist, I wouldn't care about the little shortcomings and would be done with this assignment in about 5 minutes. Kudos to the author, and if I find out who that is, I'll buy them a lollipop.
+Technical aspect: 7/10
+Best practices: 5/10
+DX: 10/10
