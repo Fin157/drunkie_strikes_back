@@ -1,0 +1,2 @@
+- Converting a division by 2 to int to get an integer is hurting my eyes, had to change it to integral division
+- 

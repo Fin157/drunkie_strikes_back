@@ -1,0 +1,8 @@
+- Changed float-to-int division to integral division in initial position calculation
+- Now using just a single integer as the drunk man's position instead of a list
+- Improved the direction-generating code to make it more readable
+- Removed redundant breaks at the end of some if-else conditions
+- Made the sim code into a function
+- Got rid of print calls to make the program faster
+- Added simulate function - used for letting the drunkie walk as many times as desired back to back
+- Added calculate max steps function
